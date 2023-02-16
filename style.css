@@ -1,0 +1,57 @@
+body {
+	font-family: Arial, sans-serif;
+}
+
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+h1 {
+	text-align: center;
+}
+
+input[type="text"] {
+	padding: 10px;
+	font-size: 16px;
+	border: none;
+	border-radius: 5px 0 0 5px;
+}
+
+button {
+	padding: 10px;
+	font-size: 16px;
+	background-color: #f00;
+	color: #fff;
+	border: none;
+	border-radius: 0 5px 5px 0;
+	cursor: pointer;
+}
+
+#pokemon-info {
+	margin-top: 20px;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	display: none;
+}
+
+#pokemon-info h2 {
+	margin-top: 0;
+}
+
+#pokemon-info img {
+	display: block;
+	margin: 0 auto;
+}
+
+#pokemon-info table {
+	margin-top: 20px;
+	width: 100%;
+}
+
+#pokemon-info table th, #pokemon-info table td {
+	padding: 10px;
+	border: 1px solid #ccc;
+}
